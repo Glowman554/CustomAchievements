@@ -1,0 +1,6 @@
+name: CustomAchievements
+version: 0.0.1-SNAPSHOT
+main: de.glowman554.achievements.AchievementsMain
+api-version: 1.19
+author: Glowman554
+depend: [ "Vault" ]

@@ -1,0 +1,42 @@
+[
+    {
+        "type": "COLLECT",
+        "target": "cactus",
+        "multiplier": 1,
+        "repeating": true,
+        "action": {
+            "type": "MESSAGE",
+            "target": "&7Du hast deinen ersten Kaktus abgebaut weiter so!"
+        }
+    },
+    {
+        "type": "BREAK",
+        "target": "stone",
+        "multiplier": 10,
+        "repeating": true,
+        "action": {
+            "type": "PAYOUT",
+            "target": "10"
+        }
+    },
+    {
+        "type": "PLACE",
+        "target": "stone",
+        "multiplier": 5,
+        "repeating": false,
+        "action": {
+            "type": "MESSAGE",
+            "target": "Yay mister stein"
+        }
+    },
+    {
+        "type": "KILL",
+        "target": "cow",
+        "multiplier": 1,
+        "repeating": false,
+        "action": {
+            "type": "MESSAGE",
+            "target": "Du hast 2 kühe getötet du monster"
+        }
+    }
+]
